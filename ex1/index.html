@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercici 1</title>
+</head>
+<body>
+<style>
+
+.hielo{
+
+	background-color:blue;
+
+}
+
+.agua {
+	
+	background-color: #0000ff;	
+
+}
+
+.bicho {
+	background-color:brown;
+}
+
+.planta {
+background-color:#008000 ;
+}
+
+.tierra {
+	background-color:#D4AF37;
+}
+
+.aire {
+	background-color: #9b9b9b ;
+
+}
+
+.fuego{
+
+background-color: red ;
+
+}
+table {
+	width:100%;
+
+}
+
+td {
+	text-align:center;
+	background-color: #b8c0e7;
+	border-radius: 15px;
+}
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+}
+li {
+	float: left;
+}
+@keyframes pokemon-up {
+ 0%,100% {
+ transform: translateY(0);
+ }
+ 50% {
+ transform: translateY(.4em);
+ }
+ 
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #BD05F0;
+
+}
+td:hover{
+	background-color: #BD05F0;
+	animation: pokemon-up .3s;
+}
+
+.pokemon-type {
+	width: 25%;
+}
+</style>
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">Pokedex 1</a></li>
+	<li><a href="">Pokedex 2</a></li>
+	<li><a href="">Pokedex 3</a></li>
+
+</ul>
+
+<table> 
+	<tr>
+		<td> <img src="../img/abra.png" />
+		<div>
+
+			<div> ABRA </div> 
+			
+			
+               	<div class="pokemon-type hielo">hielo</div>
+
+		</div>
+	     </td>
+	        <td> <img src="../img/articuno.png" />
+	        	<h3></h3>
+	        <div>
+	        	<div>ARTICUNO</div>
+	        	
+	        	<div class="pokemon-type aire">aire</div>
+	        	
+		  </div>
+	        </td>
+                <td><img src="../img/cloyster.png" />
+             <div>
+	        	<div>ROCKY</div>
+	        	
+	        	<div class="pokemon-type tierra">tierra</div>
+		  </div>
+	        </td>
+
+</tr> 
+	<tr>
+	         <td><img src="../img/cubone.png"/>
+
+	          <div>
+	        	<div>CUBONE</div>
+	        	
+	        	</div>
+	        	<div class="pokemon-type planta">planta</div>
+		</td>	
+	         <td> <img src="../img/ditto.png" />
+ 			<div>
+	        	<div>DITTO</div>
+	        	
+	        	<div class="pokemon-type bicho">bicho</div>
+
+	        	</div>
+ 			
+
+	         </td>
+                <td><img src="../img/charizard.png" />	
+               <div>
+               
+	        	<div>CHARIZARD</div>
+	        
+
+               	<div class="pokemon-type fuego">Fuego</div>
+
+	        </div>
+	        	</td>
+
+	<tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
